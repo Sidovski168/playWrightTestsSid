@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1"
+  },
+  "dependencies": {
+    "playwright": "^1.50.1"
+  }
+}
