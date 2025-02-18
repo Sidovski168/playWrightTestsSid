@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test": "npx playwright test --headed",
-    "test:debug": "npx playwright test --debug"
-  },
+  "test": "npx playwright test --headed",
+  "test:debug": "npx playwright test --debug",
+  "test:cucumber": "npx cucumber-js --tags"
+}
   "devDependencies": {
     "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.50.1"
