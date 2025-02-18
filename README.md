@@ -3,6 +3,8 @@ This repository contains just some simple features written in order to practice 
 
 #Pre-requisites
 1. Designed to run on your local machine, just clone this repo in your local machine 
+locate a local directory where you want to install the repo and run the following on cmd/terminal etc
+git clone https://github.com/Sidovski168/playWrightTestsSid.git
 2. Install Playwright with its dependencies using the below command
    'npx playwright install --with-deps'
 
